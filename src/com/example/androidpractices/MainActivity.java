@@ -17,7 +17,7 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		button1=(Button) findViewById(R.id.click_button);
+		button1=(Button) findViewById(R.id.click_button1);
 		button1.setOnClickListener(o);
 		
 	}
@@ -26,7 +26,9 @@ public class MainActivity extends Activity {
 		@Override
 		public void onClick(View v) {
 			Log.d("Vibs", "Button is clicked..");
-			dosomthing(button1);
+			if(v.getId()==R.id.click_button1){
+				
+			}
 		}
 	};
 	
