@@ -52,6 +52,18 @@
 		android:background="#81F7D8"
         android:text="@string/button4"
         android:padding="5dp"/>	
+  	
+    <Button android:id="@+id/click_button5"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentLeft="true"
+		android:layout_below="@+id/click_button4"
+		android:layout_marginTop="5dp"
+		android:layout_marginBottom="5dp"
+		android:background="#81F7D8"
+        android:text="@string/button5"
+        android:padding="5dp"/>	
   
 	
 </RelativeLayout>

@@ -8,6 +8,7 @@
     <string name="button2">Lunch Map</string>
     <string name="button3">Lunch Market</string>
     <string name="button4">Lunch Mail</string>
+    <string name="button5">Send Image</string>
     <string name="title_activity_activity_b">ActivityB</string>
 
 </resources>
