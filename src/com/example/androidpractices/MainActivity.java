@@ -50,6 +50,16 @@ public class MainActivity extends Activity {
 
 			}
 			if(v.getId()==R.id.click_button4){
+				intent=new Intent(Intent.ACTION_SEND);
+				intent.setData(Uri.parse("mailto:"));
+				String[] to ={"vibhanshu.shukla.pspl@gmail.com","vibhanshushukla15061992@gmail.com"};
+				intent.putExtra(Intent.EXTRA_EMAIL, to);
+				intent.putExtra(Intent.EXTRA_SUBJECT, "Send My EMAIL from code ");
+				intent.putExtra(Intent.EXTRA_TEXT, "Vibhanshu Shukla Android Email..");
+				intent.setType("massage/rfc822");
+				cooser = Intent.createChooser(intent,"SendEmail");
+				startActivity(cooser);
+
 
 			}
 		}
